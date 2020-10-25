@@ -1,5 +1,5 @@
 {
-  "name": "EnterpriseManagement",
+  "name": "enterprise-management",
   "version": "1.0.0",
   "description": "Enterprise Management Dashboard",
   "main": "index.js",
@@ -12,5 +12,8 @@
     "pg": "^8.4.1",
     "sequelize": "^6.3.5",
     "sequelize-cli": "^6.2.0"
+  },
+  "scripts": {
+    "dev": "NODE__ENV=development nodemon index.js"
   }
 }
