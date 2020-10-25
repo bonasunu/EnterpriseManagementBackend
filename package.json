@@ -1,0 +1,16 @@
+{
+  "name": "EnterpriseManagement",
+  "version": "1.0.0",
+  "description": "Enterprise Management Dashboard",
+  "main": "index.js",
+  "repository": "git@github.com:bonasunu/EnterpriseManagement.git",
+  "author": "bonasunu <bonaventurasunu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "pg": "^8.4.1",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
